@@ -42,13 +42,4 @@ This project employs [semantic ui](https://semantic-ui.com) - a css framework. T
 
 ### Assignment
 
-1. Complete the `puppyList.pug` template.
-2. Complete the `addPuppy.pug` template.
-
-#### Bonus 1
-
-Add a feature to delete puppies from the `puppy.pug` component.
-
-#### Bonus 2
-
-Add an `editPuppy` component that will submit a `PUT` request.
+Refactor the `pug` files with `extends`, `includes`, `mixins` and some javascript code.
