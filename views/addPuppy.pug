@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css")
+    title Puppies
+  body
+    div(class="ui text container")
+      div(class="ui two item menu")
+        a(class="item" href="/puppies") All Puppies
+        a(class="item" href="/puppies/add") Add Puppy
+      form(class='ui form' action='/puppies' method='post')
+        div(class="field") 
+          label name 
+          input(type="text" name="name")
+        div(class="field") 
+          label breed 
+          input(type="text" name="breed")
+        div(class="field") 
+          label age 
+          input(type="text" name="age")
+        div(class="field") 
+          label sex 
+          input(type="text" name="sex")  
+        div(class="field") 
+          label imageURL 
+          input(type="text" name="imageURL")                 
+        button(class='ui button', type='submit') submit 
