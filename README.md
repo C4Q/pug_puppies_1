@@ -32,9 +32,10 @@ After pressing `<enter>` you should see something similar to the following in yo
 
 This project contains a `/views` directory with template files:
 
-* `puppy.pug` to render a single `puppy` object. This view is complete and will be rendered on a `GET` request to `localhost:3000/puppies/:id`.
-* `pyppList.pug` to render an array of `puppy` objects. This view is not complete.
+* `puppy.pug` to render a single `puppy` object. Has an `edit` and `delete` buttons.
+* `pyppList.pug` to render an array of `puppy` objects.
 * `addPuppy` to add a new puppy to the database. This view is no complete.
+* `editPupp` edit a puppy.
 
 ### Semantic UI
 
